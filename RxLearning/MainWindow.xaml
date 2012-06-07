@@ -1,0 +1,9 @@
+﻿<Window x:Class="RxLearning.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListView Height="287" HorizontalAlignment="Left" Margin="12,12,0,0" Name="listView1" VerticalAlignment="Top" Width="479" ItemsSource="{Binding MessageCollection}"/>
+    </Grid>
+</Window>
